@@ -18,8 +18,12 @@ Skills
 * Ethical Hacking
 * Linux System Administration
 
-Guidelines
-----------
+Guidelines and Principles
+-------------------------
 * Communication, communication, communication
 * Explicit over implicit
 * Simplicity over complexity
+* Clarity
+* OpenSource
+* Openness and sharing of information (esp. in operational aspects)
+* Tests are essential

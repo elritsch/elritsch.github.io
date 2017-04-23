@@ -6,6 +6,11 @@ layout: default
 Projects
 ========
 
+* **Scrooge**
+  - A quantitative data-analysis and algorithmic trading framework
+  - Currently focussed on Bitcoin trading
+  - Not *yet* open source
+
 * **Python `SharedMock`**
   - A multiprocessing-friendly Python mock object
   - [https://github.com/elritsch/python-sharedmock](https://github.com/elritsch/python-sharedmock)

@@ -17,6 +17,7 @@ Skills
 * Physics
 * Ethical Hacking
 * Linux System Administration
+* Private Pilot
 
 Guidelines and Principles
 -------------------------

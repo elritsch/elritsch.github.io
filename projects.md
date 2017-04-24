@@ -21,7 +21,7 @@ Projects
 
 * **ATLAS Integrated Simulation Framework (my PhD thesis)**
   - Detector simulation framework for high-energy physics detectors
-  - publication: [https://cds.cern.ch/record/2221649](https://cds.cern.ch/record/2221649)
+  - Publication: [https://cds.cern.ch/record/2221649](https://cds.cern.ch/record/2221649)
 
 * **HepMC2DOT**
   - Convert [HepMC](http://hepmc.web.cern.ch/hepmc/) IO_GenEvent ASCII files to DOT graphs

@@ -19,12 +19,13 @@ Skills
 * Linux System Administration
 * Private Pilot
 
-Guidelines and Principles
--------------------------
-* Communication, communication, communication
-* Explicit over implicit
+Qualities, Guidelines and Principles
+------------------------------------
+* Love building and creating things
+* Communication, communication, communication!
 * Simplicity over complexity
-* Clarity
-* OpenSource
+* Code readability and clarity
+* Explicit over implicit
+* OpenSource passion
 * Openness and sharing of information (esp. in operational aspects)
-* Tests are essential
+* Code absolutely needs tests

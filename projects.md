@@ -26,3 +26,19 @@ Projects
 * **HepMC2DOT**
   - Convert [HepMC](http://hepmc.web.cern.ch/hepmc/) IO_GenEvent ASCII files to DOT graphs
   - [https://github.com/elritsch/hepmc2dot](https://github.com/elritsch/hepmc2dot)
+
+
+Responsibly Disclosed Computer Security Vulnerabilities
+-------------------------------------------------------
+* [Reflected XSS] in homepage of national defense force
+* [Reflected XSS] in public search page of a major European research institution
+* [Unvalidated redirect] in customer portal of a French internet service provider
+* [Reflected XSS] in a major aviation incidents and news outlet
+* [Command injection], [SQL injection], [stored XSS], [reflected XSS] in various public webpages of a large international physics collaboration
+* [Stored XSS] and [unvalidated redirect] in various web products for and of Swiss Aeroclubs
+
+[Reflected XSS]: https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)
+[Stored XSS]: https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)
+[SQL injection]: https://www.owasp.org/index.php/SQL_Injection
+[Unvalidated redirect]: https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet
+[Command injection]: https://www.owasp.org/index.php/Command_Injection

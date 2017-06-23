@@ -19,8 +19,8 @@ Skills
 * Linux System Administration
 * Private Pilot
 
-Qualities, Guidelines and Principles
-------------------------------------
+What drives me, Guidelines and Principles
+-----------------------------------------
 * Love building and creating things
 * Communication, communication, communication!
 * Simplicity over complexity
@@ -29,3 +29,4 @@ Qualities, Guidelines and Principles
 * OpenSource passion
 * Openness and sharing of information (esp. in operational aspects)
 * Code absolutely needs tests
+* Beware of premature optimization

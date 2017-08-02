@@ -1,6 +1,12 @@
 ---
 title: Setup LXC host with NAT bridge on Debian 9 (Stretch)
 layout: default
+tags:
+ - Linux
+ - networking
+ - NAT
+ - Debian
+ - LXC
 ---
 
 The main source of information for this post is the Debian Wiki page on [LXC bridging](https://wiki.debian.org/LXC/SimpleBridge).

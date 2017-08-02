@@ -1,10 +1,7 @@
 ---
-title: Projects - Elmar Ritsch
+title: Projects
 layout: default
 ---
-
-Projects
-========
 
 * **Scrooge**
   - A quantitative data-analysis and algorithmic trading framework

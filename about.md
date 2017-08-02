@@ -1,7 +1,10 @@
 ---
-title: About - Elmar Ritsch
-layout: default
+title: About
+layout: no-heading
 ---
+
+About Elmar Ritsch
+==================
 
 "Experienced Postdoctoral Researcher with a demonstrated history of working in the research industry. Skilled in Python, Matlab, Unit Testing, Physics, and C++. Strong research professional with a Doctor of Philosophy (PhD) focused in Computational Physics, Monte Carlo Simulation, Experimental Particle Physics from Leopold-Franzens Universität Innsbruck."
 (LinkedIn) 

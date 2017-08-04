@@ -65,7 +65,7 @@ sudo certbot certonly --webroot -m your-email@example.com --rsa-key-size 4096 -w
 sudo service nginx restart
 ```
 
-* Restart NGINX regularly to make sure it uses the newest certificate
+* Make sure NGINX restarts regularly so that it switches to new certificates as they become available.
   1. Open crontab file:
 ```
 $ sudo crontab -e

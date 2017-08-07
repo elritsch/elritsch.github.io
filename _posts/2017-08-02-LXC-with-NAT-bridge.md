@@ -1,15 +1,19 @@
 ---
-title: Setup LXC host with NAT bridge on Debian 9 (Stretch)
+title: Create LXC container using host-shared NAT bridge on Debian 9 (Stretch)
 layout: default
 tags:
  - Linux
- - networking
+ - Networking
  - NAT
  - Debian
  - LXC
+ - Container
 ---
 
+
 The main source of information for this post is the Debian Wiki page on [LXC bridging](https://wiki.debian.org/LXC/SimpleBridge).
+
+
 
 Configure the host
 ------------------
@@ -53,6 +57,17 @@ net.ipv4.ip_forward=1
   $ cat /proc/sys/net/ipv4/ip_forward
   1
   ```
+
+
+Create a new container
+----------------------
+
+This step is optional if you simply want to re-configure an existing container to use the host's NAT bridge.
+
+* Assuming you want to name the new container `my-container`, run the following:
+```shell
+lxc-create -n my-container -t debian -- -r stretch
+```
 
 
 Configure the LXC container

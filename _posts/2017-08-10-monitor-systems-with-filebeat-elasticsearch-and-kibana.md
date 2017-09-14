@@ -107,6 +107,13 @@ xpack.ssl.certificate: /etc/elasticsearch/x-pack/elasticsearch/elasticsearch.crt
 xpack.ssl.certificate_authorities: [ "/etc/elasticsearch/x-pack/ca/ca.crt" ]
 xpack.security.transport.ssl.enabled: true
 xpack.security.http.ssl.enabled: true
+# Disable non-free X-Pack features to continue running normally once
+# 'trial' license has expired
+xpack.security.enabled: false
+xpack.monitoring.enabled: false
+xpack.watcher.enabled: false
+xpack.graph.enabled: false
+xpack.ml.enabled: false
 ```
 
 * Copy CA certificate to Kibana configuration directory:

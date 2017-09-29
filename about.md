@@ -6,8 +6,7 @@ layout: no-heading
 About Elmar Ritsch
 ==================
 
-"Experienced Postdoctoral Researcher with a demonstrated history of working in the research industry. Skilled in Python, Matlab, Unit Testing, Physics, and C++. Strong research professional with a Doctor of Philosophy (PhD) focused in Computational Physics, Monte Carlo Simulation, Experimental Particle Physics from Leopold-Franzens Universität Innsbruck."
-(LinkedIn) 
+I'm a passionate computational physicist with a strong background in developing high performance C++ applications for Monte Carlo simulations of CERN's big data experiments. I like spending my free time developing well-tested algorithmic trading applications in Python and combining them with machine learning techniques. I love the idea of open-source software and I have contributed to a number of public projects. You might also find me doing penetration tests of public websites, flying single engine airplanes with my friends or spending time outdoors in the alps.
 
 Skills
 ------

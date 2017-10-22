@@ -40,7 +40,7 @@ $ sudo chmod +x /root/run_this_at_startup.sh
 
 * Test that your script gets executed if `rc.local` is started:
   ```
-  $ sudo service rc.local start
+  $ sudo service rc.local restart
   ```
 
 * Reboot to test if the script gets executed at startup.

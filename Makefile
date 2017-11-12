@@ -1,4 +1,4 @@
-JEKYLL_DOCKER_IMG = jekyll/jekyll:3.4
+JEKYLL_DOCKER_IMG = jekyll/jekyll:latest
 LOCAL_JEKYLL_PORT = 4000
 
 all: jekyll-docker

@@ -19,7 +19,7 @@ apt install cron unattended-upgrades
 ```
 
 * Add/modify the following in file `/etc/apt/apt.conf.d/50unattended-upgrades` :
-```
+```config
         Unattended-Upgrade::Origins-Pattern {
             // added by ADMIN: install every upgrade available through the used sources lists
             "o=*";

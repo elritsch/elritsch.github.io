@@ -30,7 +30,7 @@ $ apt update && apt install curl unzip gnupg2 apt-transport-https
 apt install openjdk-8-jre
 ```
    * You may run into this error:
-   ```
+   ```shell
    The following packages have unmet dependencies:
         openjdk-8-jre : Depends: openjdk-8-jre-headless (= 8u131-b11-1~bpo8+1) but it is not going to be installed
    E: Unable to correct problems, you have held broken packages.
@@ -100,7 +100,7 @@ $ unzip certificate-bundle.zip
 ```
 
 * Add the following at the end of the file `/etc/elasticsearch/elasticsearch.yml` :
-```
+```yaml
 # added by ADMIN:
 xpack.ssl.key: /etc/elasticsearch/x-pack/elasticsearch/elasticsearch.key
 xpack.ssl.certificate: /etc/elasticsearch/x-pack/elasticsearch/elasticsearch.crt
@@ -122,7 +122,7 @@ $ cp /etc/elasticsearch/x-pack/ca/ca.crt /etc/kibana/ca.crt
 ```
 
 * Add the following to file `/etc/kibana/kibana.yml` :
-```
+```yaml
 # added by ADMIN:
 elasticsearch.url: "https://localhost:9200"
 elasticsearch.ssl.certificateAuthorities: [ "/etc/kibana/ca.crt" ]
@@ -157,7 +157,7 @@ elasticsearch.password: YOUR-PASSWORD-OF-USER-kibana
 ```
 
 * Disable default passwords by adding the following to file `/etc/elasticsearch/elasticsearch.yml` :
-```
+```yaml
 xpack.security.authc.accept_default_password: false
 ```
 
@@ -171,14 +171,14 @@ $ service kibana restart
 ### Make Elasticsearch and Kibana reachable from outside localhost
 
 * Add the following to file `/etc/elasticsearch/elasticsearch.yml` :
-```
+```yaml
 # make Elasticsearch available on all interfaces
 network.host: 0.0.0.0
 transport.host: localhost
 ```
 
 * Add the following to file `/etc/kibana/kibana.yml` :
-```
+```yaml
 # make Kibana available on all interfaces:
 server.host: "0.0.0.0"
 ```
@@ -238,7 +238,7 @@ $ apt update && apt install filebeat
 * Copy CA certificate file `/etc/elasticsearch/x-pack/ca/ca.crt` from Elasticsearch server as file `/etc/filebeat/ca.crt` onto client
 
 * Add the following to file `/etc/filebeat/filebeat.yml` under section `output.elasticsearch` :
-```
+```yaml
 output.elasticsearch:
      # Array of hosts to connect to.
      # modified by ADMIN:
@@ -252,7 +252,7 @@ output.elasticsearch:
 ```
 
 * Add the following at the end of file `/etc/filebeat/filebeat.yml` :
-   ```
+   ```yaml
    # added by ADMIN:
    #name: choose-a-name-here-if-you-dont-want-it-to-be-your-hostname
    #==========================  Modules configuration ============================
@@ -265,7 +265,7 @@ output.elasticsearch:
 * Startup of the Elasticsearch server may take a minute or so. Therefore, if the Filebeat server is restarted at the same time as the Elasticsearch server, it will fail to connect to the Elasticsearch server and not start up. Thus we tweak the Filebeat `systemd` configuration to retry startup of the `filebeat` service.
 
   * Make sure the following lines are present in the `[Service]` section of file `/etc/systemd/system/multi-user.target.wants/filebeat.service` :
-```
+```config
 Restart=always
 RestartSec=15
 ```

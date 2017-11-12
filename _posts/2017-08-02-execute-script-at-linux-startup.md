@@ -8,12 +8,12 @@ tags:
 ---
 
 * Assuming you want to run the script `/root/run_this_at_startup.sh` at startup, first make sure it's executable:
-```bash
+```shell
 $ sudo chmod +x /root/run_this_at_startup.sh
 ```
 
 * Add script to file `/etc/rc.local` :
-  ```
+  ```sh
   #!/bin/sh -e
   #
   # rc.local
@@ -34,12 +34,12 @@ $ sudo chmod +x /root/run_this_at_startup.sh
   ```
 
 * Make sure `/etc/rc.local` is executable:
-  ```
+  ```shell
   $ sudo chmod +x /etc/rc.local
   ```
 
 * Test that your script gets executed if `rc.local` is started:
-  ```
+  ```shell
   $ sudo service rc.local restart
   ```
 

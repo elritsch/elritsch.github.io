@@ -12,7 +12,7 @@ tags:
 ---
 
 * Create NGINX site configuration file `/etc/nginx/sites-available/terminationproxy.conf` with following contents:
-    ```
+    ```nginx
     server {
         listen 80;
 
@@ -23,22 +23,22 @@ tags:
     ```
 
 * Enable termination proxy configuration by adding a link to NGINX's `sites-enabled` directory:
-```bash
+```shell
 sudo ln -s /etc/nginx/sites-available/terminationproxy.conf /etc/nginx/sites-enabled/terminationproxy.conf
 ```
 
 * (Re)start NGINX:
-```bash
+```shell
 sudo service nginx restart
 ```
 
 * Generate a [Let's Encrypt](https://letsencrypt.org/) certificate using `certbot` (replace `www.example.com` by your domain). `certbot` will take care of automatically re-newing the certificate well before it expires:
-```
+```shell
 sudo certbot certonly --webroot -m your-email@example.com --rsa-key-size 4096 -w /var/www/letsencrypt -d www.example.com
 ```
 
 * Add following section to file `/etc/nginx/sites-available/terminationproxy.conf` :
-    ```
+    ```nginx
     server {
         listen 443;
 
@@ -61,17 +61,17 @@ sudo certbot certonly --webroot -m your-email@example.com --rsa-key-size 4096 -w
     ```
 
 * Restart NGINX:
-```bash
+```shell
 sudo service nginx restart
 ```
 
 * Make sure NGINX restarts regularly so that it switches to new certificates as they become available.
   1. Open crontab file:
-```
+```shell
 $ sudo crontab -e
 ```
   1. Add something like this:
-```crontab
+```config
 # restart NGINX every Friday at 04:13
 13 04 * * fri service nginx restart
 ```

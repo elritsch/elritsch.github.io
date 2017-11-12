@@ -18,7 +18,7 @@ The main source of information for this post is the Debian Wiki page on [LXC bri
 Configure the host
 ------------------
 * Add the following to file `/etc/network/interface`, where `eth0` is the name of your host's network device:
-```
+```config
 # added by ADMIN to enable NAT for LXC:
 # source: https://wiki.debian.org/LXC/SimpleBridge
 auto lxc-nat-bridge
@@ -32,14 +32,14 @@ iface lxc-nat-bridge inet static
 ```
 
 * Enable IPv4 packet forwarding by adding the following to file `/etc/sysctl.conf` :
-```
+```config
 # added by ADMIN:
 net.ipv4.ip_forward=1
 ```
 
 * Reboot the host and verify after reboot that
   * the new network device `lxc-nat-bridge` is present:
-  ```bash
+  ```shell
   $ sudo ifconfig
   ...
   lxc-nat-bridge: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -53,7 +53,7 @@ net.ipv4.ip_forward=1
   ...
   ```
   * IPv4 forwarding is active:
-  ```bash
+  ```shell
   $ cat /proc/sys/net/ipv4/ip_forward
   1
   ```
@@ -73,7 +73,7 @@ lxc-create -n my-container -t debian -- -r stretch
 Configure the LXC container
 ---------------------------
 * Assuming that your container name is `my-container`, add the following to the configuration file `/var/lib/lxc/my-container/config` :
-```
+```config
 #
 # LXC network setup added by ADMIN:
 #

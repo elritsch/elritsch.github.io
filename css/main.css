@@ -23,6 +23,13 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+.references {
+    font-size: 70%;
+}
+.impressum * {
+    font-size: 70%;
+    float: right;
+}
 .blurb {
     text-align: center;
 }

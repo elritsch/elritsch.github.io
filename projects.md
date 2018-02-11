@@ -4,8 +4,9 @@ layout: default
 ---
 
 * **Scrooge**
-  - A quantitative data-analysis and algorithmic trading framework
-  - Currently focussed on Bitcoin trading
+  - A data mining, quantitative data-analysis and algorithmic trading framework
+  - Focussing on cryptocurrency trading at the current stage
+  - Project started in 2016
   - Not *yet* open source
 
 * **Python `SharedMock`**

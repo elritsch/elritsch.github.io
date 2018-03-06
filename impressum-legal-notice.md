@@ -6,14 +6,16 @@ layout: no-heading
 Legal Notice
 ============
 
-Elmar Ritsch<br />
-4 chemin de la Ramaz<br />
-01630 Sergy<br />
-France<br />
+Elmar Ritsch IT Services<br />
+Innrain 58<br />
+6020 Innsbruck<br />
+Austria<br />
 
 <a href="mailto:elmar@ritsch.io">elmar@ritsch.io</a><br />
-+33 751961854
++43 681 108 947 28
 
+VAT identification number (UID): ATU73033558<br />
+Gewerbe- und Aufsichtsbeh&ouml;rde: Magistrat der Stadt Innsbruck<br />
 
 Online Dispute Resolution website of the EU Commission
 ------------------------------------------------------
@@ -35,4 +37,4 @@ Data protection
 In general, when visiting the website of Elmar Ritsch, no personal data are saved. However, these data can be given on a voluntary basis. No data will be passed on to third parties without your consent. We point out that in regard to unsecured data transmission in the internet (e.g. via email), security cannot be guaranteed. Such data could possibly be accessed by third parties.
 
 {:.references}
-[Many thanks to [Language-Boutique.com/Sample-Impressum](https://language-boutique.com/sample-impressum) for providing a sample impressum]
+[Many thanks to [Language-Boutique.com/Sample-Impressum](https://language-boutique.com/sample-impressum) for providing a sample legal notice]

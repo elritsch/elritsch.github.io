@@ -1,5 +1,5 @@
 ---
-title: Ubuntu - Change shortcut to resize windows with "Super" key + right mouse button
+title: Change shortcut to resize windows on Ubuntu/GNOME
 layout: default
 tags:
  - Ubuntu

@@ -15,7 +15,8 @@ Austria<br />
 +43 681 108 947 28
 
 VAT identification number (UID): ATU73033558<br />
-Gewerbe- und Aufsichtsbeh&ouml;rde: Magistrat der Stadt Innsbruck<br />
+Supervisory authority (Gewerbe- und Aufsichtsbeh&ouml;rde): Magistrat der Stadt Innsbruck<br />
+<a href="http://www.wkoecg.at/Web/Ecg.aspx?FirmaID=83919c80-4e1a-4176-8a24-90d387c72040">Informationen laut E-Commerce und Mediengesetz</a>
 
 Online Dispute Resolution website of the EU Commission
 ------------------------------------------------------

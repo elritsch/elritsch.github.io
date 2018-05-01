@@ -21,20 +21,20 @@ apt install cron unattended-upgrades
 
 * Add/modify the following in file `/etc/apt/apt.conf.d/50unattended-upgrades` :
 ```config
-        Unattended-Upgrade::Origins-Pattern {
-            // added by ADMIN: install every upgrade available through the used sources lists
-            "o=*";
-        }
-        ...
-        // enable bandwith cap (512 KB/sec for apt)
-        Acquire::http::Dl-Limit "512";
-        ...
-        // send email notifications
-        Unattended-Upgrade::Mail "root";
-        Unattended-Upgrade::MailOnlyOnError "false";
-        ...
-        // turn off auto-reboot
-        //Unattended-Upgrade::Automatic-Reboot "false";
+Unattended-Upgrade::Origins-Pattern {
+    // added by ADMIN: install every upgrade available through the used sources lists
+    "o=*";
+}
+...
+// enable bandwith cap (512 KB/sec for apt)
+Acquire::http::Dl-Limit "512";
+...
+// send email notifications
+Unattended-Upgrade::Mail "root";
+Unattended-Upgrade::MailOnlyOnError "false";
+...
+// turn off auto-reboot
+//Unattended-Upgrade::Automatic-Reboot "false";
 ```
 
 * Enable the `unattended-upgrades` package by answering `Yes` to the question "`Automatically download and install stable updates?`":

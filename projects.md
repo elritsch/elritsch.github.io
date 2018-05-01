@@ -1,6 +1,7 @@
 ---
 title: Projects
 layout: default
+comments: true
 ---
 
 * **Scrooge**

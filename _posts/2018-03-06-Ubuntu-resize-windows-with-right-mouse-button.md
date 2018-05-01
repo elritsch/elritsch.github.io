@@ -1,6 +1,7 @@
 ---
 title: Change shortcut to resize windows on Ubuntu/GNOME
 layout: default
+comments: true
 tags:
  - Ubuntu
  - Gnome

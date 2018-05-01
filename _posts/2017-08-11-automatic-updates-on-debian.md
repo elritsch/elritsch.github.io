@@ -1,6 +1,7 @@
 ---
 title: Automatic updates on Debian 9 (Stretch)
 layout: default
+comments: true
 tags:
  - Linux
  - Debian

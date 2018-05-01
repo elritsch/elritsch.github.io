@@ -1,6 +1,7 @@
 ---
 title: Automatically execute script at Linux startup with Debian 9 (Stretch)
 layout: default
+comments: true
 tags:
  - Linux
  - Debian

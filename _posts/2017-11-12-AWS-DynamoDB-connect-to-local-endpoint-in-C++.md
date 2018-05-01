@@ -1,6 +1,7 @@
 ---
 title: Connect to local Amazon AWS DynamoDB endpoint using AWS C++ SDK
 layout: default
+comments: true
 tags:
  - AWS
  - DynamoDB

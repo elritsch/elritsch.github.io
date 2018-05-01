@@ -1,6 +1,7 @@
 ---
 title: Setup SSL/TLS termination proxy using Let's Encrypt and NGINX
 layout: default
+comments: true
 tags:
  - Linux
  - NGINX

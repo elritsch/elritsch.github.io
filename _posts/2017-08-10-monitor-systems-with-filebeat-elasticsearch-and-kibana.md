@@ -1,6 +1,7 @@
 ---
 title: Monitor your systems with Filebeat, Elasticsearch and Kibana on Debian 9 (Stretch)
 layout: default
+comments: true
 tags:
  - Linux
  - Debian

@@ -1,6 +1,7 @@
 ---
 title: PayPal Passwords silently truncated after 20 characters
 layout: default
+comments: true
 tags:
  - PayPal
  - Passwords

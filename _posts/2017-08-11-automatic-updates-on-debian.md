@@ -34,7 +34,7 @@ Unattended-Upgrade::Mail "root";
 Unattended-Upgrade::MailOnlyOnError "false";
 ...
 // turn off auto-reboot
-//Unattended-Upgrade::Automatic-Reboot "false";
+Unattended-Upgrade::Automatic-Reboot "false";
 ```
 
 * Enable the `unattended-upgrades` package by answering `Yes` to the question "`Automatically download and install stable updates?`":

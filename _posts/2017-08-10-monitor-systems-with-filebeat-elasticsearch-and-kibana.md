@@ -53,7 +53,7 @@ $ apt update && apt install elasticsearch kibana
 Instructions are taken from the [official X-Pack installation documentation page](https://www.elastic.co/guide/en/x-pack/current/installing-xpack.html).
 
 
-* For Elastiksearch:
+* For Elasticsearch:
 ```shell
 $ cd /usr/share/elasticsearch/
 $ bin/elasticsearch-plugin install x-pack
@@ -202,9 +202,9 @@ This section is based on the [official X-Pack documentation on setting up Filebe
    * `monitor`
    * `manage_index_templates`
    * `manage_ingest_pipelines`
-* Under **Index Priviliges**
+* Under **Index Privileges**
    * Add `filebeat-*` under **Indices**
-   * Add all of the following under **Priviliges**
+   * Add all of the following under **Privileges**
       * `read`
       * `write`
       * `index`

@@ -9,7 +9,7 @@ tags:
  - unattended-upgrades
 ---
 
-This post is heavly based on the information provided on the following two pages:
+This post is heavily based on the information provided on the following two pages:
 [https://blog.sleeplessbeastie.eu/2015/01/02/how-to-perform-unattended-upgrades/](https://blog.sleeplessbeastie.eu/2015/01/02/how-to-perform-unattended-upgrades/)
 [https://wiki.debian.org/UnattendedUpgrades](https://wiki.debian.org/UnattendedUpgrades)
 
@@ -26,7 +26,7 @@ Unattended-Upgrade::Origins-Pattern {
     "o=*";
 }
 ...
-// enable bandwith cap (512 KB/sec for apt)
+// enable bandwidth cap (512 KB/sec for apt)
 Acquire::http::Dl-Limit "512";
 ...
 // send email notifications

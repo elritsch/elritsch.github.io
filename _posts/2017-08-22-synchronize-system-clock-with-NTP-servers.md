@@ -22,7 +22,7 @@ Show list of servers you are synching with (might take a few seconds for this li
 ntpq -p
 ```
 
-If previous list was emtpy, try running:
+If previous list was empty, try running:
 ```shell
 dpkg-reconfigure ntp
 ```
